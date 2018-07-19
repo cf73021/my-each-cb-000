@@ -5,6 +5,7 @@ def my_each(array)
     yield my_each(array)
   end
 end
-my_each(array) do |i|
+
+my_each(x) do |i|
    i
 end
