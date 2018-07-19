@@ -5,6 +5,6 @@ def my_each(array)
     yield my_each(array)
   end
   my_each(collection) do |i|
-    puts i
+     i
   end
 end
