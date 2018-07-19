@@ -1,6 +1,6 @@
 def my_each(array)
   # code here
-    yield(array)
+    yield
 end
 
 my_each do |array|
