@@ -3,6 +3,4 @@ def my_each(array)
     yield
 end
 
-my_each do |array|
-   array
-end
+my_each { |name, age| puts "#{name} is #{age} years old" }
