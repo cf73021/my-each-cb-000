@@ -1,6 +1,6 @@
 def my_each(array)
   # code here
-    yield
+    yield("Todd")
 end
 
-my_each { |name, age| puts "#{name} is #{age} years old" }
+my_each { |name| puts "#{name} is 2 years old" }
